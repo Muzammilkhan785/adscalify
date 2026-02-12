@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Adscalify - Digital Marketing Agency. More Visibility. More Leads. More Growth.">
+	<title>Adscalify — Digital Marketing Agency</title>
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<style>
+		/* Critical inline CSS fallback */
+		body { background: #000; color: #fff; margin: 0; font-family: 'JetBrains Mono', 'Courier New', monospace; }
+		a { color: inherit; text-decoration: none; }
+		.container { max-width: 1280px; margin: 0 auto; padding: 0 1rem; }
+		@media(min-width:768px) { .container { padding: 0 2rem; } }
+		@media(min-width:1280px) { .container { padding: 0 3rem; } }
+	</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="site-header">
+	<header class="header-inner container">
+		<a href="index.html" class="logo">
+			Adscalify
+		</a>
+
+		<nav class="main-nav">
+			<a href="#about">About</a>
+			<a href="#services">Services</a>
+			<a href="#case-studies">Projects</a>
+			<a href="#reviews">Reviews</a>
+			<a href="#contact">Contact</a>
+		</nav>
+
+		<a class="header-cta" href="#contact">Let's Scale</a>
+
+		<!-- Mobile menu toggle -->
+		<button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open menu">
+			<svg id="menuIconOpen" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<line x1="3" y1="6" x2="21" y2="6"></line>
+				<line x1="3" y1="12" x2="21" y2="12"></line>
+				<line x1="3" y1="18" x2="21" y2="18"></line>
+			</svg>
+			<svg id="menuIconClose" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+				<line x1="18" y1="6" x2="6" y2="18"></line>
+				<line x1="6" y1="6" x2="18" y2="18"></line>
+			</svg>
+		</button>
+	</header>
+</div>
+
+<!-- Mobile Menu Overlay -->
+<div class="mobile-menu-overlay" id="mobileOverlay"></div>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+	<nav class="container">
+		<a href="#about" class="mobile-nav-link">About</a>
+		<a href="#services" class="mobile-nav-link">Services</a>
+		<a href="#case-studies" class="mobile-nav-link">Projects</a>
+		<a href="#reviews" class="mobile-nav-link">Reviews</a>
+		<a href="#contact" class="mobile-nav-link">Contact</a>
+		<a href="#contact" class="mobile-cta">Let's Scale</a>
+	</nav>
+</div>
+
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero-section">
+	<!-- Particle background (JS-driven) -->
+	<div class="hero-particles" id="heroParticles"></div>
+
+	<div class="hero-content container">
+		<div class="pill clip-sm" style="margin-bottom:1.5rem;">
+			<span class="pill-dot"></span>
+			DIGITAL MARKETING AGENCY
+		</div>
+
+		<h1 class="font-sentient">
+			More Visibility. <i>More</i> Leads<br>
+			More <i>Growth.</i>
+		</h1>
+
+		<p class="hero-subtitle">
+			Digital marketing crafted for franchises, multi-location brands, and visionaries ready to own their space
+		</p>
+
+		<div class="hero-buttons">
+			<a href="#case-studies" class="btn clip-lg">
+				<span class="btn-border-tl"></span>
+				<span class="btn-border-br"></span>
+				[Case Studies]
+			</a>
+			<a href="#contact" class="btn clip-lg">
+				<span class="btn-border-tl"></span>
+				<span class="btn-border-br"></span>
+				[Get Free Audit]
+			</a>
+		</div>
+	</div>
+</section>
+
+
+<!-- ===== STATS SECTION ===== -->
+<section class="stats-section" id="about">
+	<div class="container">
+		<!-- Stats circles -->
+		<div class="stats-row">
+			<div class="stat-circle">
+				<span class="stat-value">5+</span>
+				<span class="stat-label">Years of
+Experience</span>
+			</div>
+			<div class="stat-circle">
+				<span class="stat-value">200+</span>
+				<span class="stat-label">Successful
+projects</span>
+			</div>
+			<div class="stat-circle">
+				<span class="stat-value">150+</span>
+				<span class="stat-label">happy
+clients</span>
+			</div>
+			<div class="stat-circle">
+				<span class="stat-value">160+</span>
+				<span class="stat-label">5 star
+reviews</span>
+			</div>
+		</div>
+
+		<!-- Feature cards -->
+		<div class="features-grid">
+			<div class="feature-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<h3>Proven Success – Global Reach</h3>
+				<p>With 5+ years of collective expertise, we've executed 200+ high-impact campaigns, helping brands expand worldwide.</p>
+			</div>
+			<div class="feature-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<h3>Custom Strategies – Real Results</h3>
+				<p>No generic solutions—our data-driven approach is tailored to your goals, audience, and industry for measurable success.</p>
+			</div>
+			<div class="feature-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<h3>Client-First – Excellence Always</h3>
+				<p>Our clients trust us to deliver exceptional results, strategic insights, and continuous growth.</p>
+			</div>
+		</div>
+
+		<!-- Tags -->
+		<div class="tags-row">
+			<span class="pill clip-sm"><span class="pill-dot"></span>Driven by Innovation.</span>
+			<span class="pill clip-sm"><span class="pill-dot"></span>Partners in Success</span>
+			<span class="pill clip-sm"><span class="pill-dot"></span>Client Satisfaction, Guaranteed</span>
+		</div>
+	</div>
+</section>
+
+
+<!-- ===== SERVICES SECTION ===== -->
+<section class="services-section" id="services">
+	<div class="container">
+		<div class="section-header">
+			<span class="pill clip-sm"><span class="pill-dot"></span>WE ARE GREAT AT</span>
+			<h2 class="font-sentient">Services We <i>Offer</i></h2>
+		</div>
+
+		<div class="services-grid">
+			<div class="service-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<span class="service-number">01</span>
+				<h3>Performance Marketing</h3>
+				<p>We craft high-performance digital advertising campaigns on Google, Meta, and other platforms to drive traffic, leads, and sales with data-backed strategies.</p>
+				<a href="#contact" class="read-more">[ Read More → ]</a>
+			</div>
+			<div class="service-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<span class="service-number">02</span>
+				<h3>Social Media Marketing</h3>
+				<p>Our social media experts amplify your brand's voice across platforms—building engaged communities, creating viral content, and turning followers into loyal customers.</p>
+				<a href="#contact" class="read-more">[ Read More → ]</a>
+			</div>
+			<div class="service-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<span class="service-number">03</span>
+				<h3>Content Marketing</h3>
+				<p>From blog posts to video scripts, we produce compelling content that educates, entertains, and converts—fueled by SEO research and audience insights.</p>
+				<a href="#contact" class="read-more">[ Read More → ]</a>
+			</div>
+			<div class="service-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<span class="service-number">04</span>
+				<h3>Web Design &amp; Development</h3>
+				<p>We build lightning-fast, visually stunning websites optimized for conversions—whether it's a landing page, e-commerce store, or a full-scale web application.</p>
+				<a href="#contact" class="read-more">[ Read More → ]</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- ===== SPECIALTIES SECTION ===== -->
+<section class="specialties-section">
+	<div class="container">
+		<div class="section-header">
+			<span class="pill clip-sm"><span class="pill-dot"></span>BACKED BY DATA</span>
+			<h2 class="font-sentient">Our <i>Specialties</i></h2>
+		</div>
+
+		<div class="specialties-grid">
+			<div class="specialty-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<span class="specialty-value">150%</span>
+				<span class="specialty-label">Traffic Increase</span>
+				<p>Our performance marketing strategies have boosted organic and paid traffic by an average of 150% for our clients.</p>
+			</div>
+			<div class="specialty-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<span class="specialty-value">$74M</span>
+				<span class="specialty-label">Revenue Generated</span>
+				<p>From lead generation to e-commerce optimization, we've helped brands generate over $74 million in trackable revenue.</p>
+			</div>
+			<div class="specialty-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<span class="specialty-value">80%</span>
+				<span class="specialty-label">Brand Visibility</span>
+				<p>Through integrated social and content strategies, we've driven an average 80% uplift in brand awareness metrics.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- ===== CASE STUDIES SECTION ===== -->
+<section class="case-studies-section" id="case-studies">
+	<div class="container">
+		<div class="section-header">
+			<span class="pill clip-sm"><span class="pill-dot"></span>PORTFOLIO</span>
+			<h2 class="font-sentient">Case <i>Studies</i></h2>
+		</div>
+
+		<div class="case-studies-list">
+			<!-- Russet -->
+			<div class="case-study-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<div class="case-study-inner">
+					<div>
+						<span class="case-study-brand">Russet</span>
+						<h3>Elevated E-Commerce Presence</h3>
+						<p class="case-desc">Through a combination of targeted performance marketing, SEO, and social media strategy, we helped Russet dramatically grow its online footprint and revenue.</p>
+					</div>
+					<div class="case-metrics">
+						<div class="metric-circle primary-border">
+							<span class="metric-value" style="color:var(--primary)">85%</span>
+							<span class="metric-label">increase in website traffic</span>
+						</div>
+						<div class="metric-circle default-border">
+							<span class="metric-value">65%</span>
+							<span class="metric-label">growth in online sales</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Jockey -->
+			<div class="case-study-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<div class="case-study-inner">
+					<div>
+						<span class="case-study-brand">Jockey</span>
+						<h3>Omnichannel Growth Strategy</h3>
+						<p class="case-desc">We partnered with Jockey to unify their digital presence—driving both online engagement and offline store visits through integrated campaigns.</p>
+					</div>
+					<div class="case-metrics">
+						<div class="metric-circle primary-border">
+							<span class="metric-value" style="color:var(--primary)">55%</span>
+							<span class="metric-label">increase in social engagement</span>
+						</div>
+						<div class="metric-circle default-border">
+							<span class="metric-value">35%</span>
+							<span class="metric-label">increase in store foot traffic</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- ===== CLIENTELES SECTION ===== -->
+<section class="clienteles-section">
+	<div class="container text-center" style="margin-bottom:3rem;">
+		<span class="pill clip-sm"><span class="pill-dot"></span>TRUSTED BY</span>
+		<h2 class="font-sentient" style="margin-top:1.5rem;">Our <i>Clienteles</i></h2>
+	</div>
+
+	<div class="marquee-wrapper">
+		<div class="marquee-fade-left"></div>
+		<div class="marquee-fade-right"></div>
+		<div class="marquee-track animate-marquee" id="marqueeTrack">
+			<span class="client-name">Sheaffer<span class="client-dot"></span></span>
+			<span class="client-name">HUB<span class="client-dot"></span></span>
+			<span class="client-name">WEEBY<span class="client-dot"></span></span>
+			<span class="client-name">FAIZA REHMAN<span class="client-dot"></span></span>
+			<span class="client-name">INTERIOR SQUARE<span class="client-dot"></span></span>
+			<span class="client-name">HangTen<span class="client-dot"></span></span>
+			<span class="client-name">Jenpharm<span class="client-dot"></span></span>
+			<span class="client-name">IVAR<span class="client-dot"></span></span>
+			<span class="client-name">TK<span class="client-dot"></span></span>
+			<span class="client-name">Glitzy Blings<span class="client-dot"></span></span>
+			<!-- Duplicate for seamless loop -->
+			<span class="client-name">Sheaffer<span class="client-dot"></span></span>
+			<span class="client-name">HUB<span class="client-dot"></span></span>
+			<span class="client-name">WEEBY<span class="client-dot"></span></span>
+			<span class="client-name">FAIZA REHMAN<span class="client-dot"></span></span>
+			<span class="client-name">INTERIOR SQUARE<span class="client-dot"></span></span>
+			<span class="client-name">HangTen<span class="client-dot"></span></span>
+			<span class="client-name">Jenpharm<span class="client-dot"></span></span>
+			<span class="client-name">IVAR<span class="client-dot"></span></span>
+			<span class="client-name">TK<span class="client-dot"></span></span>
+			<span class="client-name">Glitzy Blings<span class="client-dot"></span></span>
+		</div>
+	</div>
+</section>
+
+
+<!-- ===== TESTIMONIALS SECTION ===== -->
+<section class="testimonials-section" id="reviews">
+	<div class="container">
+		<div class="section-header">
+			<span class="pill clip-sm"><span class="pill-dot"></span>TESTIMONIALS</span>
+			<h2 class="font-sentient">What Our <i>Clients Say</i></h2>
+		</div>
+
+		<div class="testimonial-wrapper">
+			<div class="testimonial-card clipped-card clip-md corner-borders" id="testimonialCard">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+
+				<div class="testimonial-stars" id="testimonialStars"></div>
+				<p class="testimonial-quote" id="testimonialQuote"></p>
+				<div class="testimonial-author">
+					<span class="author-name" id="testimonialName"></span>
+					<span class="author-role" id="testimonialRole"></span>
+				</div>
+			</div>
+
+			<div class="testimonial-dots" id="testimonialDots"></div>
+		</div>
+	</div>
+</section>
+
+
+<!-- ===== PRICING SECTION ===== -->
+<section class="pricing-section">
+	<div class="container">
+		<div class="section-header">
+			<span class="pill clip-sm"><span class="pill-dot"></span>PACKAGES</span>
+			<h2 class="font-sentient">Choose Your <i>Plan</i></h2>
+		</div>
+
+		<div class="pricing-grid">
+			<!-- Digital Marketing -->
+			<div class="pricing-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<h3>Digital Marketing</h3>
+				<ul class="pricing-features">
+					<li><span class="check">✦</span> Social Media Management (3 platforms)</li>
+					<li><span class="check">✦</span> Monthly Content Calendar</li>
+					<li><span class="check">✦</span> Performance Marketing (Google + Meta)</li>
+					<li><span class="check">✦</span> SEO Optimization (On-page)</li>
+					<li><span class="check">✦</span> Monthly Analytics Report</li>
+					<li><span class="check">✦</span> Community Management</li>
+				</ul>
+				<a href="#contact" class="btn btn-sm btn-full clip-lg">
+					<span class="btn-border-tl"></span>
+					<span class="btn-border-br"></span>
+					[Let's Scale]
+				</a>
+			</div>
+
+			<!-- Web Design (highlight) -->
+			<div class="pricing-card clipped-card clip-md corner-borders highlight">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<span class="popular-badge">★ Most Popular</span>
+				<h3>Web Design &amp; Development</h3>
+				<ul class="pricing-features">
+					<li><span class="check">✦</span> Custom Website Design (up to 10 pages)</li>
+					<li><span class="check">✦</span> Mobile-Responsive Development</li>
+					<li><span class="check">✦</span> Basic SEO Setup</li>
+					<li><span class="check">✦</span> Contact Form Integration</li>
+					<li><span class="check">✦</span> Speed Optimization</li>
+					<li><span class="check">✦</span> 3 Rounds of Revisions</li>
+				</ul>
+				<a href="#contact" class="btn btn-sm btn-full clip-lg">
+					<span class="btn-border-tl"></span>
+					<span class="btn-border-br"></span>
+					[Let's Scale]
+				</a>
+			</div>
+
+			<!-- Graphic Design -->
+			<div class="pricing-card clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<h3>Graphic Design</h3>
+				<ul class="pricing-features">
+					<li><span class="check">✦</span> Brand Identity Package</li>
+					<li><span class="check">✦</span> Social Media Creatives (20/month)</li>
+					<li><span class="check">✦</span> Ad Banners &amp; Assets</li>
+					<li><span class="check">✦</span> Presentation Design</li>
+					<li><span class="check">✦</span> Packaging Design (basic)</li>
+					<li><span class="check">✦</span> 2 Rounds of Revisions</li>
+				</ul>
+				<a href="#contact" class="btn btn-sm btn-full clip-lg">
+					<span class="btn-border-tl"></span>
+					<span class="btn-border-br"></span>
+					[Let's Scale]
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- ===== FAQ SECTION ===== -->
+<section class="faq-section">
+	<div class="container">
+		<div class="section-header">
+			<span class="pill clip-sm"><span class="pill-dot"></span>FAQ</span>
+			<h2 class="font-sentient">Frequently Asked <i>Questions</i></h2>
+		</div>
+
+		<div class="faq-list">
+			<div class="faq-item">
+				<button class="faq-question">
+					<span>What services does Adscalify offer?</span>
+					<span class="faq-icon">+</span>
+				</button>
+				<div class="faq-answer">
+					<p>We offer a full suite of digital marketing services including Performance Marketing, Social Media Marketing, Content Marketing, Web Design &amp; Development, SEO, and Graphic Design. Each service is tailored to your brand's unique goals.</p>
+				</div>
+			</div>
+			<div class="faq-item">
+				<button class="faq-question">
+					<span>How long does it take to see results?</span>
+					<span class="faq-icon">+</span>
+				</button>
+				<div class="faq-answer">
+					<p>Results timelines vary by service. Performance marketing campaigns can show initial traction in 2-4 weeks, while SEO and organic strategies typically take 3-6 months to show significant, sustained growth.</p>
+				</div>
+			</div>
+			<div class="faq-item">
+				<button class="faq-question">
+					<span>Do you work with small businesses or only large brands?</span>
+					<span class="faq-icon">+</span>
+				</button>
+				<div class="faq-answer">
+					<p>We work with businesses of all sizes—from ambitious startups to established global brands. Our strategies are customized to match your budget, industry, and objectives.</p>
+				</div>
+			</div>
+			<div class="faq-item">
+				<button class="faq-question">
+					<span>What platforms do you advertise on?</span>
+					<span class="faq-icon">+</span>
+				</button>
+				<div class="faq-answer">
+					<p>We run campaigns across all major platforms including Google Ads, Meta (Facebook &amp; Instagram), TikTok, LinkedIn, YouTube, and more. We choose platforms based on where your audience is most active.</p>
+				</div>
+			</div>
+			<div class="faq-item">
+				<button class="faq-question">
+					<span>How do I get started with Adscalify?</span>
+					<span class="faq-icon">+</span>
+				</button>
+				<div class="faq-answer">
+					<p>Simply reach out through our contact form or email us at contact@adscalify.com. We'll schedule a free consultation to understand your goals and propose a customized strategy.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- ===== SOCIAL LOOKBOOK SECTION ===== -->
+<section class="lookbook-section">
+	<div class="container">
+		<div class="section-header">
+			<span class="pill clip-sm"><span class="pill-dot"></span>LOOKBOOK</span>
+			<h2 class="font-sentient">Social <i>Lookbook</i></h2>
+			<p class="lookbook-subtitle">A glimpse of the creative work we deliver across social platforms</p>
+		</div>
+
+		<div class="lookbook-grid">
+			<div class="lookbook-item clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<div class="lookbook-inner lookbook-bg-1">
+					<span class="lookbook-label">Brand Campaign</span>
+				</div>
+			</div>
+			<div class="lookbook-item clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<div class="lookbook-inner lookbook-bg-2">
+					<span class="lookbook-label">Social Ad</span>
+				</div>
+			</div>
+			<div class="lookbook-item clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<div class="lookbook-inner lookbook-bg-3">
+					<span class="lookbook-label">Product Shoot</span>
+				</div>
+			</div>
+			<div class="lookbook-item clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<div class="lookbook-inner lookbook-bg-1">
+					<span class="lookbook-label">Story Design</span>
+				</div>
+			</div>
+			<div class="lookbook-item clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<div class="lookbook-inner lookbook-bg-2">
+					<span class="lookbook-label">Reel Cover</span>
+				</div>
+			</div>
+			<div class="lookbook-item clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+				<div class="lookbook-inner lookbook-bg-3">
+					<span class="lookbook-label">Carousel Post</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact-section" id="contact">
+	<div class="container">
+		<div class="section-header">
+			<span class="pill clip-sm"><span class="pill-dot"></span>GET IN TOUCH</span>
+			<h2 class="font-sentient">Let's <i>Talk!</i></h2>
+		</div>
+
+		<div class="contact-wrapper">
+			<div class="contact-form clipped-card clip-md corner-borders">
+				<span class="corner-bl"></span>
+				<span class="corner-br"></span>
+
+				<form action="https://formspree.io/f/your-form-id" method="POST">
+					<div class="form-group">
+						<label for="contact_name">Name</label>
+						<input type="text" id="contact_name" name="name" placeholder="Your name" required>
+					</div>
+					<div class="form-group">
+						<label for="contact_email">Email</label>
+						<input type="email" id="contact_email" name="email" placeholder="your@email.com" required>
+					</div>
+					<div class="form-group">
+						<label for="contact_message">Message</label>
+						<textarea id="contact_message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+					</div>
+					<button type="submit" class="btn btn-full clip-lg">
+						<span class="btn-border-tl"></span>
+						<span class="btn-border-br"></span>
+						[Send Message]
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Footer -->
+<footer class="site-footer" id="footer">
+	<div class="container">
+		<div class="footer-grid">
+			<!-- Brand -->
+			<div class="footer-brand">
+				<span class="footer-logo">Adscalify</span>
+				<a href="mailto:contact@adscalify.com" class="footer-email">contact@adscalify.com</a>
+				<div class="footer-locations">
+					<div class="footer-location">
+						<span class="pill pill-mini clip-sm"><span class="pill-dot" style="width:5px;height:5px;margin-right:4px;"></span>USA</span>
+						<span class="location-city">New York, NY</span>
+					</div>
+					<div class="footer-location">
+						<span class="pill pill-mini clip-sm"><span class="pill-dot" style="width:5px;height:5px;margin-right:4px;"></span>PAK</span>
+						<span class="location-city">Lahore, Pakistan</span>
+					</div>
+					<div class="footer-location">
+						<span class="pill pill-mini clip-sm"><span class="pill-dot" style="width:5px;height:5px;margin-right:4px;"></span>UAE</span>
+						<span class="location-city">Dubai, UAE</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Menu -->
+			<div>
+				<span class="footer-col-title">Menu</span>
+				<ul class="footer-menu">
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#case-studies">Projects</a></li>
+					<li><a href="#reviews">Reviews</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+
+			<!-- Services -->
+			<div>
+				<span class="footer-col-title">Services</span>
+				<ul class="footer-services">
+					<li><span>Performance Marketing</span></li>
+					<li><span>Social Media Marketing</span></li>
+					<li><span>Content Marketing</span></li>
+					<li><span>Web Design &amp; Development</span></li>
+					<li><span>Graphic Design</span></li>
+					<li><span>SEO Optimization</span></li>
+				</ul>
+			</div>
+
+			<!-- Newsletter + Social -->
+			<div>
+				<span class="footer-col-title">Newsletter</span>
+				<p class="newsletter-text">Stay updated with the latest trends in digital marketing.</p>
+				<form class="newsletter-form" action="https://formspree.io/f/your-form-id" method="POST">
+					<input type="email" name="newsletter_email" placeholder="your@email.com" required>
+					<button type="submit">&rarr;</button>
+				</form>
+
+				<div class="social-links">
+					<a href="#" aria-label="Facebook">FB</a>
+					<a href="#" aria-label="Instagram">IG</a>
+					<a href="#" aria-label="YouTube">YT</a>
+					<a href="#" aria-label="LinkedIn">LI</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bottom bar -->
+		<div class="footer-bottom">
+			<span>&copy; <script>document.write(new Date().getFullYear())</script> Adscalify. All rights reserved.</span>
+			<span class="crafted">Crafted with precision &amp; data</span>
+		</div>
+	</div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/particles.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
