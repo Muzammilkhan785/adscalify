@@ -1,8 +1,6 @@
-# Adscalify — Static Website (GitHub Pages Ready)
+# Adscalify — 3-D Website (GitHub Pages Ready)
 
 Adscalify is a high-conversion digital marketing agency website using a sci-fi/polygon visual style with a custom animated particle hero background.
-
-This version is a **static export** of the original WordPress-themed build, prepared for direct hosting on **GitHub Pages** without changing the site appearance.
 
 ## Live Site
 
@@ -53,20 +51,6 @@ python -m http.server 8080
 
 Then open `http://localhost:8080`.
 
-## Deploy to GitHub Pages
-
-This project is already configured to deploy from:
-
-- Branch: `master`
-- Folder: `/` (repository root)
-
-To redeploy after changes:
-
-```bash
-git add .
-git commit -m "Update site"
-git push origin master
-```
 
 ## Form Handling (Important)
 
@@ -102,6 +86,8 @@ Larger values improve visual richness but can reduce FPS on low-end devices.
 - HTML5
 - CSS3 (custom styles, clip-path based UI)
 - Vanilla JavaScript (no framework/runtime required)
+- WebGL
+- NEXTJS
 
 ## License
 
